@@ -66,6 +66,47 @@ label{
 }
 
 #optional{
-	color: 
+	color:#808080;
 }
 
+
+.box{
+	float: left;
+	width: 100%;
+}
+
+.row1{
+	height: 8px;
+	background-color: #0C95A8;
+	border:1px solid black;
+}
+
+.row:{
+	float: left;
+	height: 100px;
+}
+
+.column{
+	float: left;
+	width: 32%;
+	border:1px solid black;
+	text-align: center;
+}
+
+
+#number{
+	font-size: 20pt;
+	color: #0C95A8;
+	font-weight: bold;
+}
+
+#word{
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+#end{
+	font-size: 12pt;
+
+}
