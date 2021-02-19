@@ -1,0 +1,71 @@
+body{
+	background-image: url("https://codd.cs.gsu.edu/~jvo14/WP/PW/test/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content{
+	width: 100%;
+}
+
+
+.buffer{
+	float: left;
+	width: 23%;
+}
+
+.leftstuff{
+	align-content: center;
+	float: left;
+	width: 43%;
+	margin-right: 1%;
+}
+
+.rightstuff{
+	float: left;
+	width: 33%;
+}
+
+
+
+h1{
+	font-family: verdana;
+	font-size: 48pt;
+	text-align: center;
+}
+
+p{
+	font-size: 20pt;
+	color: darkblue;
+	text-align: center;
+}
+
+.leftstuff img{
+	width: 100%;
+	height: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+}
+
+ol{
+	font-size: 20pt;
+}
+
+ul{
+	font-size: 20pt;
+}
+
+h2{
+	font-size: 30pt;
+}
+
+.rightstuff img{
+	width: 60%;
+	height: 50%;
+}
+
+label{
+	font-size: 20pt;
+}
+
