@@ -1,0 +1,164 @@
+
+body{
+	/*background-image: url('https://codd.cs.gsu.edu/~nchun2/project1/foodbackground.jpg'); */
+	background-repeat: repeat;
+	background-image: url("https://codd.cs.gsu.edu/~nchun2/project1/fallinghotdogs.gif");
+	background-size: cover;
+	
+}
+
+
+h1{
+	text-align: center;
+	padding-top:25px;
+}
+
+.leftImg  {
+	float:left;
+	height: 100%;
+	width: 5%;
+	position: absolute; 
+	top:0; 
+	left:0;
+	display: block; 
+}
+
+img.bottomImg{
+	float:bottom;
+	left:0;
+	width: 5%;
+	position: absolute; 
+	display: block; 
+	
+
+}
+.rightImg{
+	float:right;
+	height: auto;
+	width: 5%;
+	position: absolute; 
+	display: block; 	
+}
+
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
+
+.fadein {
+    position:absolute;
+    top:0px;
+    left:50%;
+    margin:auto;
+	float:left;
+	transform: rotate(20deg);
+	padding-top:150px;
+}
+.fadein img {
+    position:absolute;
+    left:-65px;
+    top:0;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f1 {
+   
+}
+#f2 {
+	-webkit-animation-delay: -4s;
+    
+}
+#f3 {
+    -webkit-animation-delay: -2s;
+    
+}
+
+.menu {
+	display: block;
+	position: relative;
+	width: 200px;
+	float:right;
+	font-family: Fantasy;
+	padding-left:5%;
+	padding-right:10%;
+	margin: 10px;
+	top:20%;
+	left:-5%;
+}
+
+.menu > li > a {
+	background: #FF5733;
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+  
+}
+
+
+.menu ul {
+	background: #ddd;
+	height: 0;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	transition: all .5s ease;
+	top: 35px;
+	width: 100%;
+	background-color: green;
+}
+
+.menu li:hover ul {
+	height: 200px;
+	opacity: 1;
+	transform: translateY(0);
+	background-color: yellow;
+}
+
+.menu ul a {
+	color: #000;
+	display: block;
+	padding: 5px 20px;
+	background-color: orange;
+}
+
+.imgShake{
+	animation: shake 0.5s;
+	padding-top:25%;
+	animation-iteration-count: infinite;
+	float:bottom;
+	display: inline-block;
+	margin-left: 80%;
+	white-space:nowrap;
+}
+
+@keyframes shake {
+	0%{transform: rotate(5deg);}
+    50%{transform: rotate(-2deg)}
+    100%{transform: rotate(5deg);}
+	
+}
