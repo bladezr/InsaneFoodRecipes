@@ -237,10 +237,12 @@ input[name="r"]{
 #nutlabel{
   width:25%;
   height:20%;
+  background-color: white;
 }
 #nutlabel:hover {
   width:50%;
   height:45%;
+  background-color: white;
 }
 .featured{
 position:absolute;
