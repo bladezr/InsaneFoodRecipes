@@ -1,7 +1,9 @@
 body{
-  background-image: url("https://codd.cs.gsu.edu/~jvo14/WP/PW/test/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("foodbackground.jpg");
+  background-repeat: repeat-y;
+  background-size: auto;
+  background-position: center;
+
 }
 
 .content{
@@ -24,9 +26,16 @@ body{
 .rightcolumn{
   float: left;
   width: 33%;
+
 }
 
+.ingredients{
+  transform: translateY(-100%);
+}
 
+.directions{
+  transform: translateY(-65%);
+}
 
 h1{
   font-family: verdana;
@@ -71,6 +80,7 @@ label{
 
 
 .box{
+  top: 65%;
   float: left;
   width: 100%;
 }
@@ -113,7 +123,7 @@ label{
 .slidershow{
   position:relative;
   left:50%;
-  top: 420px;
+  margin-top: 65%;
     width:65%;
   overflow: hidden;
 
@@ -121,7 +131,7 @@ label{
 }
 .navigation{
   position: absolute;
-  bottom: 20px;
+  bottom: 2%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -166,7 +176,7 @@ input[name="r"]{
 .slidershow2{
   position:relative;
   left:50%;
-  top: 420px;
+  top: 65%;
     width:65%;
   overflow: hidden;
 
@@ -226,19 +236,19 @@ input[name="r"]{
 }
 #nutlabel{
   width:25%;
-  height:25%;
+  height:20%;
 }
 #nutlabel:hover {
-  width:35%;
-  height:30%;
+  width:50%;
+  height:45%;
 }
 .featured{
 position:absolute;
 left:70%;
 top:100%;
-width:15%;
+width:20%;
 height:40%;
-
+background-color: white;
 }
 .featured h2{
 font-size:24px;
@@ -246,6 +256,10 @@ text-align:center;
 }
 .featured h3{
   text-align:center;
+}
+
+.featuredRecipes{
+  background-color: white;
 }
 .featuredRecipes li{
   text-align:center;
@@ -255,7 +269,15 @@ text-align:center;
 .featuredRecipes img{
   width:20%;
   height:20%;
+}
 
+#featuredrecipe{
+  width:100%;
+  height:70%;
+}
+
+.featured p{
+  background-color: white;
 }
 
 .parm:hover{
