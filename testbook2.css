@@ -30,15 +30,18 @@ body{
 
 
 h1{
-  font-family: verdana;
+  font-family: cursive;
   font-size: 48pt;
   text-align: center;
+  font-weight: bold;
+  font-style: italic;
 }
 
 p{
   font-size: 20pt;
   color: darkblue;
   text-align: center;
+  font-family: Brush Script MT;
 }
 
 .leftcolumn img{
